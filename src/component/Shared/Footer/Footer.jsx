@@ -17,7 +17,7 @@ const Footer = () => {
           <p>Pages</p>
           <p>Support</p>
         </div>
-        <p>
+        <p className="pb-10">
           Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit
           amet, Neque porro elit NeDque{" "}
         </p>
