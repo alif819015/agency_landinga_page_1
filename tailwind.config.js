@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      'main-blue': '#6D95FC',
+    },
   },
   plugins: [
     require('daisyui'),
