@@ -6,11 +6,12 @@
     border-radius: 38px;
     padding: 38px 57px 34px 67px;
 }
+
 .review-wrapper{
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
-    
+    color: #fff;
 }
 .review-card{
     margin: 92px 0px 43px 0px;
