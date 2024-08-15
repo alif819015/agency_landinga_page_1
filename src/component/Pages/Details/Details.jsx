@@ -7,8 +7,8 @@ const Details = () => {
         background: "linear-gradient(90deg, #000000, rgba(8, 14, 19, 0.758))",
       }}
     >
-      <div className="py-20 flex justify-around">
-        <div className="flex flex-col items-center justify-center">
+      <div className="md:py-20 lg:py-20 md:flex lg:flex justify-around">
+        <div className="flex flex-col items-center justify-center max-sm:pb-10">
           <img src={teamMembers} alt="" />
           <h1 className="text-white font-extrabold text-[64px]">50+</h1>
           <p
@@ -18,7 +18,7 @@ const Details = () => {
             Team members
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center max-sm:pb-10">
           <img src={teamMembers} alt="" />
           <h1 className="text-white font-extrabold text-[64px]">50+</h1>
           <p
@@ -28,7 +28,7 @@ const Details = () => {
             Team members
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center max-sm:pb-10">
           <img src={teamMembers} alt="" />
           <h1 className="text-white font-extrabold text-[64px]">50+</h1>
           <p

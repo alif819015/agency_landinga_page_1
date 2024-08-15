@@ -1,12 +1,12 @@
 import videoIcon from "../../../../public/Video Icon.png";
 const OurService = () => {
   return (
-    <div className="bg-[#000000] flex gap-[91px] justify-center">
-      <div className="w-[589px] pt-[175px] pb-[145px]">
+    <div className="bg-[#000000] md:flex gap-[91px] justify-center max-sm:p-4">
+      <div className="md:w-[589px] lg:w-[589px] pt-[50px] md:pt-[175px] lg:pt-[175px] md:pb-[145px] lg:pb-[145px]">
         <h2 className="text-[#6D95FC] font-medium text-[21px] tracking-[14.5%] leading-[31.5px]">
           OUR SERVICE
         </h2>
-        <h1 className="text-[#FFFFFF] font-bold text-5xl leading-[59.76px] py-8">
+        <h1 className="text-[#FFFFFF] font-bold text-3xl md:text-5xl lg:text-5xl leading-[59.76px] py-8">
           Experience the power of
           <span className="text-[#6D95FC]"> innovation</span>.
         </h1>
@@ -21,7 +21,7 @@ const OurService = () => {
         </button>
       </div>
       {/* service name */}
-      <div className="grid grid-cols-2 pt-[134px] pb-[133px]">
+      <div className="grid md:grid-cols-2 pt-[50px] pb-[50px] md:pt-[134px] lg:pt-[134px] md:pb-[133px] lg:pb-[133px]">
         <div
           style={{
             background:
