@@ -6,6 +6,7 @@ import OurService from "../OurService/OurService";
 import LatestProject from "../LatestProject/LatestProject";
 import Details from "../Details/Details";
 import Touch from "../Touch/Touch";
+// import GetInTouch from "../GetInTouch/GetInTouch";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <ReviewSection></ReviewSection>
       <Touch></Touch>
       {/* hello */}
+      {/* <GetInTouch></GetInTouch> */}
     </div>
   );
 };

@@ -14,7 +14,7 @@ const ReviewSection = () => {
                 <div className="review-card">
                     <p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit </p>
                     <div className="clent-wrapper flex flex-row items-center justify-between pt-[36px]">
-                        <div className="client-card flex flex-row items-center">
+                        <div className="client-card flex flex-row items-center gap-[16px]">
                             <img src="/img/client-img.png" alt="" />
                             <div className="name-email">
                                 <h3>Carol Chaves</h3>
