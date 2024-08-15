@@ -14,18 +14,18 @@ const Navbar = () => {
   };
 
   const navMenu = (
-    <ul className="md:flex gap-[27px] text-[21px] font-medium">
-      <li>
+    <ul className=" md:flex gap-6 lg:gap-[27px] text-base md:text-lg lg:text-[21px] font-medium">
+      <li className="py-2 md:py-0">
         <Link to="home" smooth={true} duration={1000} onClick={handleNavClick}>
           Home
         </Link>
       </li>
-      <li>
+      <li className="py-2 md:py-0">
         <Link to="about" smooth={true} duration={1000} onClick={handleNavClick}>
           About Us
         </Link>
       </li>
-      <li>
+      <li className="py-2 md:py-0">
         <Link
           to="services"
           smooth={true}
@@ -35,7 +35,7 @@ const Navbar = () => {
           Services
         </Link>
       </li>
-      <li>
+      <li className="py-2 md:py-0">
         <Link
           to="portfolio"
           smooth={true}
@@ -45,12 +45,12 @@ const Navbar = () => {
           Portfolio
         </Link>
       </li>
-      <li>
+      <li className="py-2 md:py-0">
         <Link to="pages" smooth={true} duration={1000} onClick={handleNavClick}>
           Pages
         </Link>
       </li>
-      <li>
+      <li className="py-2 md:py-0">
         <Link
           to="contact Us"
           smooth={true}
@@ -60,41 +60,42 @@ const Navbar = () => {
           Contact Us
         </Link>
       </li>
-      <li className="flex justify-center items-center text-[#6D95FC]">
+      <li className="flex justify-center items-center text-[#6D95FC] py-2 md:py-0">
         <FaSearch />
       </li>
     </ul>
   );
 
   return (
-    <div className="navbar bg-black text-white">
+    <div className="navbar h-[60px] md:h-[80px] lg:h-[120px] bg-black text-white">
       <Container>
-        <div className="mr-[236px]">
+        <div className="flex items-center justify-between lg:justify-start">
+          {/* Mobile Hamburger Menu */}
           <div className="lg:hidden">
             <Hamburger toggled={isOpen} toggle={setOpen} distance="sm" />
             {isOpen && (
-              <div className="p-2 shadow-purple-200 menu bg-[#da08a2] rounded-box w-full">
+              <div className="p-4 shadow-lg menu bg-[#da08a2] rounded-lg mt-2">
                 {navMenu}
               </div>
             )}
           </div>
-          <Link
-            to="home"
-            smooth={true}
-            duration={1000}
-            className="fontStyle btn-ghost normal-case text-2xl hidden lg:flex"
-            onClick={handleNavClick}
-          >
-            <span className="w-[174px] h-[23px] text-center">
-            <span className="uppercase leading-[0px] text-[#6D95FC] tracking-[-2.5%] font-semibold text-[50px]">
-              Creatic
-            </span>
-            <br />
-            <span className="tracking-[19%] text-[14px] ">CREATIVE AGENCY</span>
-            </span>
-          </Link>
+
+          {/* Logo */}
+          <div className="flex  justify-center items-center">
+            <div className="flex flex-col text-center mr-[112px]">
+                <span className="uppercase text-[#6D95FC] tracking-[-2.5%] font-semibold text-[20px] md:text-[40px] lg:text-[50px]">
+                  Creatic
+                </span>
+                <br className="hidden lg:block" />
+                <span className="tracking-widest lg:tracking-[19%] text-[7px] md:text-[12px] lg:text-[14px]">
+                  CREATIVE AGENCY
+                </span>
+            </div>
+
+            {/* Desktop Menu */}
+            <div className="hidden lg:flex ml-auto shrink-0">{navMenu}</div>
+          </div>
         </div>
-        <div className=" hidden lg:flex">{navMenu}</div>
       </Container>
     </div>
   );

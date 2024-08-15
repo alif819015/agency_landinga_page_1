@@ -18,7 +18,7 @@ const Footer = () => {
           </h1>
           <p className="pb-4 tracking-[19%]">CREATIVE AGENCY</p>
           <hr className="mx-auto pb-4 w-[87px] border-[#6D95FC]" />
-          <div className="flex gap-5 justify-center text-[#6D95FC] pb-4 tracking-[-2.5%]">
+          <div className="flex md:flex flex-wrap gap-5 justify-center text-[#6D95FC] pb-4 tracking-[-2.5%]">
             <p>Categories</p>
             <p>About</p>
             <p>Services</p>
@@ -26,7 +26,7 @@ const Footer = () => {
             <p>Pages</p>
             <p>Support</p>
           </div>
-          <p className="pb-10 tracking-[4%] leading-[166.5]">
+          <p className="pb-10 tracking-[4%] leading-[166.5%]">
             Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
             sit amet, Neque porro elit NeDque{" "}
           </p>
