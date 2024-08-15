@@ -4,7 +4,8 @@ import img from "../../../../public/Image/artificial intelligence.png";
 
 const About = () => {
   return (
-    <div style={{
+    <div
+      style={{
         backgroundColor: "#060000",
         boxShadow: "inset -10px 0 10px rgba(0, 0, 0, 0)",
         backgroundImage:
