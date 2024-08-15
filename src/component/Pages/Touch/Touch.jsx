@@ -11,8 +11,10 @@ const Touch = () => {
           </h1>
           <p className="border-[3px] rounded border-white w-[97.5px] "></p>
           <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px] pt-[26px] pb-[40px] md:w-[500px]">
-            Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
-            sit amet, Neque porro elit NeDque porro
+            You can reach us via email, phone, or by filling out the form below.
+            We strive to respond to all inquiries within 24 hours. Your
+            satisfaction and convenience are our top priorities, and we look
+            forward to hearing from you!
           </p>
           <div className="flex items-center gap-[27px]">
             <FaLocationDot className="text-[#6D95FC] w-8 h-[45px]" />
@@ -54,7 +56,7 @@ const Touch = () => {
               background:
                 "linear-gradient(180deg, #12192B 0%, rgba(109, 149, 252, 0.35) 50%, #12192B 100%)",
             }}
-            className="md:w-[539px] md:h-[606px] rounded-[34px]"
+            className="md:w-[539px]  rounded-[34px]"
           >
             <div className="p-[20px] md:p-[50px]">
               <h1 className="text-white font-normal text-[17px] tracking-[8.5%] leading-[25.5px] pb-[5px]">
@@ -82,6 +84,11 @@ const Touch = () => {
                 class="w-full h-[178px] border border-white p-2 text-white 
                  text-left bg-transparent"
               />
+              <div className="flex justify-center pt-8 pb-[46px]">
+                <button className="px-[17px] py-[10px] text-black border-[3px] border-[#6D95FC] bg-[#6D95FC] rounded-[2px] flex items-center font-medium text-[17px] tracking-[14.5%] leading-[25.5px]">
+                  SEND MESSAGE
+                </button>
+              </div>
             </div>
           </div>
         </div>

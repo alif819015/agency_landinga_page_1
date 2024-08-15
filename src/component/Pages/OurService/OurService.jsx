@@ -46,7 +46,7 @@ const OurService = () => {
         >
           <img src={videoIcon} alt="" />
           <h1 className="text-[#6D95FC] font-semibold text-[21px] tracking-[6%] leading-[31.5px] text-center">
-            VIDEO MARKETING
+            Graphic Design
           </h1>
           <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px] py-8 pt-0 text-center">
             Lorem ipsum Neque do porro quisquam est qui do quam
@@ -61,7 +61,7 @@ const OurService = () => {
         >
           <img src={videoIcon} alt="" />
           <h1 className="text-[#6D95FC] font-semibold text-[21px] tracking-[6%] leading-[31.5px] text-center">
-            VIDEO MARKETING
+            ui/ux Design
           </h1>
           <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px] py-8 pt-0 text-center">
             Lorem ipsum Neque do porro quisquam est qui do quam
@@ -76,7 +76,7 @@ const OurService = () => {
         >
           <img src={videoIcon} alt="" />
           <h1 className="text-[#6D95FC] font-semibold text-[21px] tracking-[6%] leading-[31.5px] text-center">
-            VIDEO MARKETING
+            WEBSITE DESIGN
           </h1>
           <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px] py-8 pt-0 text-center">
             Lorem ipsum Neque do porro quisquam est qui do quam
