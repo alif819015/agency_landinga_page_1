@@ -8,6 +8,7 @@ export default {
     extend: {},
     colors: {
       'main-blue': '#6D95FC',
+      'white': '#fff',
     },
   },
   plugins: [
