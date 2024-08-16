@@ -11,15 +11,14 @@ import Touch from "../Touch/Touch";
 const Home = () => {
   return (
     <div className="bg-black text-white">
-      <Banner/>
-      <About/>
+      <Banner />
+      <About />
       <OurService />
       <Details></Details>
       <LatestProject></LatestProject>
       <Experiance></Experiance>
       <ReviewSection></ReviewSection>
       <Touch></Touch>
-      {/* hello */}
       {/* <GetInTouch></GetInTouch> */}
     </div>
   );
