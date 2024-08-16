@@ -12,11 +12,12 @@ const Banner = () => {
       }}
     >
       <div
-        className="hero min-h-screen"
+        className="hero min-h-screen bg-no-repeat bg-contain"
         style={{
           backgroundImage:
             "url(../../../../../../public/Image/beautiful-woman.png)",
-            backgroundPosition:' 400px, right',
+            // backgroundPosition:' 400px, right',
+            backgroundPosition: '100% top, right center',
         }}
       >
         <div className="hero-overlay bg-opacity-60 md:bg-opacity-0"></div>

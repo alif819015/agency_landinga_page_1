@@ -21,7 +21,7 @@ const OurService = () => {
         </button>
       </div>
       {/* service name */}
-      <div className="grid md:grid-cols-2 pt-[50px] pb-[50px] md:pt-[134px] lg:pt-[134px] md:pb-[133px] lg:pb-[133px]">
+      <div className="grid justify-center gap-2 md:grid-cols-2 pt-[50px] pb-[50px] md:pt-[134px] lg:pt-[134px] md:pb-[133px] lg:pb-[133px]">
         <div
           style={{
             background:
