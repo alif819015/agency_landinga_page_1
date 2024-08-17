@@ -1,7 +1,31 @@
+import { useRef } from "react";
 import Container from "../../Ui/Container";
 import "./Banner.css";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Banner = () => {
+
+  const textRef =  useRef();
+
+  useGSAP(()=>{
+    gsap.from(".animated-text-left",{
+      x: -360,
+      opacity: 0,
+      duration: 1,
+      delay: .5,
+      stagger: 0.2
+    })
+    gsap.from(".animated-text-right",{
+      x: 360,
+      opacity: 0,
+      duration: 1,
+      delay: .5,
+      stagger: 0.2
+    })
+    
+  })
+
   return (
     <div
       style={{
@@ -25,19 +49,19 @@ const Banner = () => {
         <Container>
         <div className="flex flex-col items-center md:flex-row">
               <div className="pt-10 pb-12 md:pt-[105px] md:pb-[183px] w-full md:w-[819px] text-center md:text-left">
-                <h6 className="pt-10 pb-8 md:pt-20 md:pb-[43px] text-lg md:text-[21px] uppercase text-[#6D95FC] tracking-wider md:tracking-[14.5%]">
+                <h6 className=".animated-text-left pt-10 pb-8 md:pt-20 md:pb-[43px] text-lg md:text-[21px] uppercase text-[#6D95FC] tracking-wider md:tracking-[14.5%]">
                   Welcome to creatic
                 </h6>
-                <h1 className="pb-8 md:pb-[43px] font-bold text-4xl md:text-[80px] tracking-wide md:tracking-[1.5%] leading-snug md:leading-[111.5%]">
+                <h1 className=".animated-text-left pb-8 md:pb-[43px] font-bold text-4xl md:text-[80px] tracking-wide md:tracking-[1.5%] leading-snug md:leading-[111.5%]">
                   WE ARE <span className="text-[#6D95FC]">CREATIVE</span> DESIGN
                   AGENCY
                 </h1>
-                <hr className="mx-auto md:mx-0 w-16 md:w-24 border-[#6D95FC]" />
-                <p className="py-8 md:py-[43px] text-base md:text-[21px] w-[90%] md:w-[697px] mx-auto md:mx-0">
+                <hr className=".animated-text-left mx-auto md:mx-0 w-16 md:w-24 border-[#6D95FC]" />
+                <p className=" .animated-text-left py-8 md:py-[43px] text-base md:text-[21px] w-[90%] md:w-[697px] mx-auto md:mx-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
                   porro quisquam est qui dolorem ipsum quia dolor sit amet.
                 </p>
-                <button className="px-6 py-3 text-sm md:text-[17px] border border-[#6D95FC] tracking-widest md:tracking-[14.5%]">
+                <button   className=" animated-text px-6 py-3 text-sm md:text-[17px] border border-[#6D95FC] tracking-widest md:tracking-[14.5%]">
                   GET IN TOUCH
                 </button>
               </div>
