@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="bg-black text-white">
       <Container>
-        <div className="text-center pt-32">
+        <div className="text-center pt-02">
           <h1 className="text-[#6D95FC] uppercase font-semibold text-5xl tracking-[1.5%]">
             Creatic
           </h1>
@@ -30,7 +30,7 @@ const Footer = () => {
             Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
             sit amet, Neque porro elit NeDque{" "}
           </p>
-          <div className="flex gap-4 justify-center text-[#6D95FC] pb-[180px]">
+          <div className="flex gap-4 justify-center text-[#6D95FC] pb-[20px]">
             <FaFacebook />
             <FaInstagram />
             <FaWhatsapp />
