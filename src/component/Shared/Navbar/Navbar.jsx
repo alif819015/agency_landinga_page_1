@@ -21,7 +21,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li className="py-2 md:py-0">
-        <Link to="about" smooth={true} duration={1000} onClick={handleNavClick}>
+        <Link to="contact-us" smooth={true} duration={1000} onClick={handleNavClick}>
           About Us
         </Link>
       </li>
@@ -69,7 +69,7 @@ const Navbar = () => {
   return (
     <div className="navbar h-[60px] md:h-[80px] lg:h-[120px] bg-black text-white">
       <Container>
-        <div className="flex items-center justify-between lg:justify-start">
+        <div className="w-full flex items-center justify-between lg:justify-start">
           {/* Mobile Hamburger Menu */}
           <div className="lg:hidden">
             <Hamburger toggled={isOpen} toggle={setOpen} distance="sm" />
@@ -81,15 +81,14 @@ const Navbar = () => {
           </div>
 
           {/* Logo */}
-          <div className="flex  justify-center items-center">
+          <div className="w-full flex  justify-center items-center content-between">
             <div className="flex flex-col text-center mr-[112px]">
                 <span className="uppercase text-[#6D95FC] tracking-[-2.5%] font-semibold text-[20px] md:text-[40px] lg:text-[50px]">
                   Creatic
                 </span>
-                <br className="hidden lg:block" />
-                <span className="tracking-widest lg:tracking-[19%] text-[7px] md:text-[12px] lg:text-[14px]">
+                <p className="tracking-widest lg:tracking-[19%] text-[7px] md:text-[12px] lg:text-[14px]">
                   CREATIVE AGENCY
-                </span>
+                </p>
             </div>
 
             {/* Desktop Menu */}
