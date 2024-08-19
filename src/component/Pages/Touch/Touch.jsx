@@ -46,7 +46,7 @@ const Touch = () => {
   };
 
   return (
-    <div className="bg-black md:pb-[130px]">
+    <div className="bg-black md:pb-[130px]" id="contact-us">
       <div className="md:flex gap-[147px] justify-center max-sm:px-4">
         <div className="pt-[50px] md:pt-[172px] md:w-[596px]">
           <h1 className="text-white font-bold text-[30px] md:text-[48px] leading-[72px] pb-[30px]">

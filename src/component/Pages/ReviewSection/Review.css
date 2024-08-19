@@ -11,7 +11,7 @@
   padding: 38px 57px 34px 67px;
 }
 
-.review-wrapper {
+.review-section {
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
@@ -20,3 +20,11 @@
 .review-card {
   margin: 92px 0px 43px 0px;
 }
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .review-card{
+        padding: 20px 15px 20px 18px;
+        width: 90%;
+    }
+ }
