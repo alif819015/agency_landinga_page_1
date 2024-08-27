@@ -57,7 +57,7 @@ const ReviewSection = () => {
                 <img src="/img/image.png" alt="" />
             </div>
             <div className="review flex flex-col items-center justify-center md:px-[96px]">
-                <h2 className='review-text poppins-bold text-[55px] uppercase pt-[24.56px] pb-[12px] leading-[109.5%] tracking-wider text-center'>What <span className='text-main-blue'>our</span> <br /> Clients say?</h2>
+                <h2 className='review-text poppins-bold text-[40px] md:text-[55px] uppercase pt-[24.56px] pb-[12px] leading-[109.5%] tracking-wider text-center'>What <span className='text-main-blue'>our</span> <br /> Clients say?</h2>
                 <hr className='review-text text-main-blue w-[100px] h-[3px] '/>
                 <p className='review-text poppins-regular text-[21px] uppercase pt-[12px]'>TESTIMONIALS</p>
                 <div className="review-card ">

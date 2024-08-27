@@ -33,13 +33,13 @@ const Details = () => {
       }}
     >
       <Container>
-        <div className="md:py-20 lg:py-20 md:flex lg:flex justify-around">
+        <div className="py-16 md:py-20 lg:py-20 md:flex lg:flex justify-around">
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
             <img src={teamMembers} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">50+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
-              className="font-normal text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
+              className="font-normal text-lg md:text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
             >
               Team members
             </p>
@@ -49,7 +49,7 @@ const Details = () => {
             <h1 className="text-white font-extrabold text-[64px]">200+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
-              className="font-normal text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
+              className="font-normal text-lg md:text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
             >
               Project done
             </p>
@@ -59,7 +59,7 @@ const Details = () => {
             <h1 className="text-white font-extrabold text-[64px]">500+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
-              className="font-normal text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
+              className="font-normal text-lg md:text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
             >
               Happy customers
             </p>
@@ -69,7 +69,7 @@ const Details = () => {
             <h1 className="text-white font-extrabold text-[64px]">75+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
-              className="font-normal text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
+              className="font-normal text-lg md:text-[21px] tracking-[4%] leading-[25.73px] text-center pt-[3px]"
             >
               Award Winning
             </p>
