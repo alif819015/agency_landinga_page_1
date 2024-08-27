@@ -53,7 +53,7 @@ const Touch = () => {
             Get in <span className="text-[#6D95FC]">TOUCH</span>
           </h1>
           <p className="border-[3px] rounded border-white w-[97.5px]"></p>
-          <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px] pt-[26px] pb-[40px] md:w-[500px]">
+          <p className="text-white font-light md:text-[21px] tracking-[4%] leading-[25px] md:leading-[34.96px] pt-[26px] pb-[40px] md:w-[500px]">
             You can reach us via email, phone, or by filling out the form below.
             We strive to respond to all inquiries within 24 hours. Your
             satisfaction and convenience are our top priorities, and we look
@@ -62,32 +62,32 @@ const Touch = () => {
           <div className="flex items-center gap-[27px]">
             <FaLocationDot className="text-[#6D95FC] w-8 h-[45px]" />
             <div>
-              <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px]">
+              <p className="text-white font-light md:text-[21px] tracking-[4%] leading-[34.96px]">
                 Office Address
               </p>
-              <p className="text-white font-normal text-[16px] tracking-[4%] leading-[26.64px]">
+              <p className="text-white font-normal text-xs md:text-[16px] tracking-[4%] leading-[26.64px]">
                 834710a, 8123740b, 237403, Dhaka, Bangladesh
               </p>
             </div>
           </div>
-          <div className="py-[39px] flex gap-[27px]">
+          <div className="py-[39px] flex gap-[27px] items-center">
             <IoMdCall className="text-[#6D95FC] w-8 h-[45px]" />
             <div>
-              <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px]">
+              <p className="text-white font-light md:text-[21px] tracking-[4%] leading-[34.96px]">
                 Call Us
               </p>
-              <p className="text-white font-normal text-[16px] tracking-[4%] leading-[26.64px]">
+              <p className="text-white font-normal text-xs md:text-[16px] tracking-[4%] leading-[26.64px]">
                 *************
               </p>
             </div>
           </div>
-          <div className="flex gap-[27px]">
+          <div className="flex gap-[27px] items-center">
             <MdEmail className="text-[#6D95FC] w-8 h-[45px]" />
             <div>
-              <p className="text-white font-light text-[21px] tracking-[4%] leading-[34.96px]">
+              <p className="text-white font-light text-xs md:text-[21px] tracking-[4%] leading-[34.96px]">
                 Mail Us
               </p>
-              <p className="text-white font-normal text-[16px] tracking-[4%] leading-[26.64px]">
+              <p className="text-white font-normal text-xs md:text-[16px] tracking-[4%] leading-[26.64px]">
                 email@mail.com
               </p>
             </div>
@@ -105,7 +105,7 @@ const Touch = () => {
           >
             <div className="p-[20px] md:p-[50px]">
               <form onSubmit={handleSubmit}>
-                <h1 className="text-white font-normal text-[17px] tracking-[8.5%] leading-[25.5px] pb-[5px]">
+                <h1 className="text-white font-normal md:text-[17px] tracking-[8.5%] leading-[25.5px] pt-8 md:pt-0 pb-[5px]">
                   YOUR NAME
                 </h1>
                 <input
@@ -115,7 +115,7 @@ const Touch = () => {
                   className="w-full h-[50px] border border-white p-2 text-white text-left bg-transparent"
                 />
 
-                <h1 className="text-white font-normal text-[17px] tracking-[8.5%] leading-[25.5px] pt-[22px] pb-[5px]">
+                <h1 className="text-white font-normal md:text-[17px] tracking-[8.5%] leading-[25.5px] pt-[22px] pb-[5px]">
                   YOUR EMAIL
                 </h1>
                 <input
@@ -125,7 +125,7 @@ const Touch = () => {
                   className="w-full h-[50px] border border-white p-2 text-white text-left bg-transparent"
                 />
 
-                <h1 className="text-white font-normal text-[17px] tracking-[8.5%] leading-[25.5px] pt-[22px] pb-[5px]">
+                <h1 className="text-white font-normal md:text-[17px] tracking-[8.5%] leading-[25.5px] pt-[22px] pb-[5px]">
                   YOUR MESSAGE
                 </h1>
                 <textarea
@@ -137,7 +137,7 @@ const Touch = () => {
                 <div className="flex justify-center pt-8 pb-[46px]">
                   <button
                     type="submit"
-                    className="px-[17px] py-[10px] text-black border-[3px] border-[#6D95FC] bg-[#6D95FC] rounded-[2px] flex items-center font-medium text-[17px] tracking-[14.5%] leading-[25.5px]"
+                    className="px-[17px] py-[10px] text-black border-[3px] border-[#6D95FC] bg-[#6D95FC] rounded-[2px] flex items-center font-medium md:text-[17px] tracking-[14.5%] leading-[25.5px]"
                   >
                     SEND MESSAGE
                   </button>
