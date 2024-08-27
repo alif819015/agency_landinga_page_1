@@ -1,0 +1,8 @@
+.background-image {
+  background-image: url("../../../../public/Image/beautiful-woman.png");
+  background-position: 400px, right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80%;
+}
