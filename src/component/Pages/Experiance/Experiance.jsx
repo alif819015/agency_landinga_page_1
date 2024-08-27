@@ -26,7 +26,7 @@ const Experiance = () => {
 
   return (
     <Container>
-      <div className="main-container experiance-section bg-slate-950 md:pb-[261px] max-sm:pb-[100px] max-sm:px-4 pt-[111px] tracking-widest">
+      <div className="main-container experiance-section bg-slate-950 md:pb-[261px] max-sm:pb-[100px] pt-[111px] tracking-widest">
         <div className="experiance-content md:flex md:flex-row text-left">
           <div className="left md:w-7/12 w-full bg-slate-950 pr-14">
             <p className="experiance-text poppins-regular md:text-[21px]">

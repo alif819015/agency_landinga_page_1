@@ -1,33 +1,34 @@
-
 import { useGSAP } from "@gsap/react";
 import teamMembers from "../../../../public/Group.svg";
+import project from "../../../../public/project-done.svg";
+import review from "../../../../public/review.svg";
+import award from "../../../../public/award.svg";
 import Container from "../../Ui/Container";
 import gsap from "gsap";
 
-
 const Details = () => {
-
-  useGSAP(()=>{
-    
-    gsap.from(".details-box", {
-      duration: 1,
-      opacity: 0,
-      y: -100,
-      stagger: 0.25,
-      scrollTrigger: {
-        trigger: ".details-box",
-        start: "10% 90%", // Adjust start based on when you want the animation to begin
-        end: "80% 5%",
-        scrub: true,
+  useGSAP(() => {
+    gsap.from(
+      ".details-box",
+      {
+        duration: 1,
+        opacity: 0,
+        y: -100,
+        stagger: 0.25,
+        scrollTrigger: {
+          trigger: ".details-box",
+          start: "10% 90%", // Adjust start based on when you want the animation to begin
+          end: "80% 5%",
+          scrub: true,
+        },
       },
-    },".details-section");
-
-    
-  })
+      ".details-section"
+    );
+  });
 
   return (
-    
-    <div className="details-section"
+    <div
+      className="details-section"
       style={{
         background: "linear-gradient(90deg, #000000, rgba(3, 47, 82, 0.758))",
       }}
@@ -45,7 +46,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
-            <img src={teamMembers} alt="" />
+            <img src={project} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">200+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -55,7 +56,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
-            <img src={teamMembers} alt="" />
+            <img src={review} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">500+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -65,7 +66,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center">
-            <img src={teamMembers} alt="" />
+            <img src={award} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">75+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -75,10 +76,8 @@ const Details = () => {
             </p>
           </div>
         </div>
-      
       </Container>
     </div>
-    
   );
 };
 
