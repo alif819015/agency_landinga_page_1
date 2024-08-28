@@ -1,5 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import videoIcon from "../../../../public/Video Icon.png";
+import graphic from "../../../../public/icons/graphic icon.svg";
+import ux from "../../../../public/ux.svg";
+import Web from "../../../../public/Web icon.svg";
 import gsap from "gsap";
 import "./OurService.css";
 import Container from "../../Ui/Container";
@@ -37,9 +40,7 @@ const OurService = () => {
           </h1>
           <p className="service-text border-[3px] border-[#6D95FC] w-[97.5px]"></p>
           <p className="service-text text-[#FFFFFF] font-light md:text-[21px] tracking-[4%] leading-[25px] md:leading-[34.96px] py-8">
-            Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
-            sit amet, Neque porro elit NeDque porro Neque porro quisquam est qui
-            do lorem ipsum quia dolor sit amets ipsum{" "}
+          Empowering businesses to stay ahead of the curve with cutting-edge strategies and innovative solutions, driving success in a rapidly evolving digital landscape where the future is shaped by today's bold ideas
           </p>
           <button className="service-text text-[#FFFFFF] border-[3px] border-[#6D95FC] rounded-[2px] px-[25px] py-[10px] flex items-center font-normal text-[17px]">
             VIEW ALL
@@ -59,7 +60,7 @@ const OurService = () => {
               VIDEO MARKETING
             </h1>
             <p className="text-[#FFFFFF] font-light md:text-[21px] tracking-[4%] leading-[25px] md:leading-[34.96px] py-8 pt-0 text-center">
-              Lorem ipsum Neque do porro quisquam est qui do quam
+            Building websites that captivate, engage, and convert
             </p>
           </div>
           <div
@@ -69,12 +70,12 @@ const OurService = () => {
             }}
             className=" hover-element p-8 flex flex-col items-center justify-center w-[300px]"
           >
-            <img src={videoIcon} alt="" />
+            <img src={ graphic} alt="" />
             <h1 className="text-[#6D95FC] font-semibold text-[21px] tracking-[6%] leading-[31.5px] text-center">
               Graphic Design
             </h1>
             <p className="text-[#FFFFFF] font-light md:text-[21px] tracking-[4%] leading-[25px] md:leading-[34.96px] py-8 pt-0 text-center">
-              Lorem ipsum Neque do porro quisquam est qui do quam
+            Transforming ideas into visually stunning graphic designs
             </p>
           </div>
           <div
@@ -84,12 +85,12 @@ const OurService = () => {
             }}
             className="hover-element p-8 flex flex-col items-center justify-center w-[300px]"
           >
-            <img src={videoIcon} alt="" />
+            <img src={ux} alt="" />
             <h1 className="text-[#6D95FC] font-semibold text-[21px] tracking-[6%] leading-[31.5px] text-center">
               ui/ux Design
             </h1>
             <p className="text-[#FFFFFF] font-light md:text-[21px] tracking-[4%] leading-[25px] md:leading-[34.96px] py-8 pt-0 text-center">
-              Lorem ipsum Neque do porro quisquam est qui do quam
+            Crafting seamless UI/UX that enhances user satisfaction
             </p>
           </div>
           <div
@@ -99,12 +100,12 @@ const OurService = () => {
             }}
             className="hover-element p-8 flex flex-col items-center justify-center w-[300px]"
           >
-            <img src={videoIcon} alt="" />
+            <img src={Web} alt="" />
             <h1 className="text-[#6D95FC] font-semibold text-[21px] tracking-[6%] leading-[31.5px] text-center">
               WEBSITE DESIGN
             </h1>
             <p className="text-[#FFFFFF] font-light md:text-[21px] tracking-[4%] leading-[25px] md:leading-[34.96px] py-8 pt-0 text-center">
-              Lorem ipsum Neque do porro quisquam est qui do quam
+            Creating stunning websites that engage and convert visitors
             </p>
           </div>
         </div>

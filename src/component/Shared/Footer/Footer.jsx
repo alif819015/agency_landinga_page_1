@@ -27,8 +27,7 @@ const Footer = () => {
             <p>Support</p>
           </div>
           <p className="pb-10 tracking-[4%] text-sm md:text-[21px] leading-[166.5%]">
-            Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
-            sit amet, Neque porro elit NeDque{" "}
+          Insights from our clients showcasing the transformative impact of our agency's solutions and services
           </p>
           <div className="flex gap-4 justify-center text-[#6D95FC] pb-[20px]">
             <FaFacebook />

@@ -61,7 +61,7 @@ const ReviewSection = () => {
                 <hr className='review-text text-main-blue w-[100px] h-[3px] '/>
                 <p className='review-text poppins-regular text-[21px] uppercase pt-[12px]'>TESTIMONIALS</p>
                 <div className="review-card ">
-                    <p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit </p>
+                    <p>Discover what our clients have to say about their successful experiences and how we’ve made an impact </p>
                     <div className="clent-wrapper flex flex-row items-center justify-between pt-[36px]">
                         <div className="client-card flex flex-row items-center gap-[10px]">
                             <img src="/img/client-img.png" alt="" />

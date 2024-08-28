@@ -43,8 +43,9 @@ const Experiance = () => {
           </div>
           <div className="right md:w-5/12 w-full poppins-light md:text-[21px] content-end">
             <p className="experiance-text">
-              Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
-              sit amet, Neque porro elit NeDque porro Lorem ipsum
+              Crafting impactful brand experiences with 25 years of creative
+              excellence, driving innovation and delivering results that stand
+              the test of time.
             </p>
             <ul className="pt-8">
               <li className="flex experiance-text">
