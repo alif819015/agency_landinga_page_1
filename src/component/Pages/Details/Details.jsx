@@ -1,6 +1,9 @@
 
 import { useGSAP } from "@gsap/react";
 import teamMembers from "../../../../public/Group.svg";
+import project from "../../../../public/project-done.svg";
+import review from "../../../../public/review.svg";
+import award from "../../../../public/award.svg";
 import Container from "../../Ui/Container";
 import gsap from "gsap";
 
@@ -45,7 +48,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
-            <img src={teamMembers} alt="" />
+            <img src={project} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">200+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -55,7 +58,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
-            <img src={teamMembers} alt="" />
+            <img src={review} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">500+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -65,7 +68,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center">
-            <img src={teamMembers} alt="" />
+            <img src={award} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">75+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
