@@ -53,7 +53,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 pt-[0px] items-center">
           <div className="w-full">
             <img
-              className="about-img w-[80%] h-[80%] md:w-full md:h-full"
+              className="about-img w-full md:w-full md:h-full"
               src={img}
               alt="beautiful-woman"
             />

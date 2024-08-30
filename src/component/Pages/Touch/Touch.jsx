@@ -3,6 +3,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import Swal from "sweetalert2";
+import Container from "../../Ui/Container";
 
 const Touch = () => {
   const [name, setName] = useState("");
@@ -46,8 +47,9 @@ const Touch = () => {
   };
 
   return (
-    <div className="bg-black md:pb-[130px]" id="contact-us">
-      <div className="md:flex gap-[147px] justify-center max-sm:px-4">
+    <Container>
+      <div className="bg-black md:pb-[130px]" id="contact-us">
+      <div className="md:flex gap-[147px] justify-center">
         <div className="pt-[50px] md:pt-[172px] md:w-[596px]">
           <h1 className="text-white font-bold text-[30px] md:text-[48px] leading-[72px] pb-[30px]">
             Get in <span className="text-[#6D95FC]">TOUCH</span>
@@ -148,6 +150,7 @@ const Touch = () => {
         </div>
       </div>
     </div>
+    </Container>
   );
 };
 

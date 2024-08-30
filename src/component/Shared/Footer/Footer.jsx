@@ -16,7 +16,9 @@ const Footer = () => {
           <h1 className="text-[#6D95FC] uppercase font-semibold text-5xl tracking-[1.5%]">
             Creatic
           </h1>
-          <p className="pb-4 tracking-[19%] text-xs md:text-sm">CREATIVE AGENCY</p>
+          <p className="pb-4 tracking-[19%] text-xs md:text-sm">
+            CREATIVE AGENCY
+          </p>
           <hr className="mx-auto pb-4 w-[87px] border-[#6D95FC]" />
           <div className="flex md:flex flex-wrap gap-5 text-sm md:text-[21px] justify-center text-[#6D95FC] pb-4 tracking-[-2.5%]">
             <p>Categories</p>
@@ -27,8 +29,8 @@ const Footer = () => {
             <p>Support</p>
           </div>
           <p className="pb-10 tracking-[4%] text-sm md:text-[21px] leading-[166.5%]">
-            Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
-            sit amet, Neque porro elit NeDque{" "}
+            Insights from our clients showcasing the transformative impact of
+            our agency's solutions and services
           </p>
           <div className="flex gap-4 justify-center text-[#6D95FC] pb-[20px]">
             <FaFacebook />
@@ -40,7 +42,8 @@ const Footer = () => {
           <footer className="footer footer-center text-white p-4">
             <aside>
               <p>
-                Copyright © {new Date().getFullYear()} Creatic Agency All rights reserved.
+                Copyright © {new Date().getFullYear()} Creatic Agency All rights
+                reserved.
               </p>
             </aside>
           </footer>
