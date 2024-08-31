@@ -1,4 +1,3 @@
-
 import { useGSAP } from "@gsap/react";
 import teamMembers from "../../../../public/Group.svg";
 import project from "../../../../public/project-done.svg";
@@ -7,30 +6,29 @@ import award from "../../../../public/award.svg";
 import Container from "../../Ui/Container";
 import gsap from "gsap";
 
-
 const Details = () => {
-
-  useGSAP(()=>{
-    
-    gsap.from(".details-box", {
-      duration: 1,
-      opacity: 0,
-      y: -100,
-      stagger: 0.25,
-      scrollTrigger: {
-        trigger: ".details-box",
-        start: "10% 90%", // Adjust start based on when you want the animation to begin
-        end: "80% 5%",
-        scrub: true,
+  useGSAP(() => {
+    gsap.from(
+      ".details-box",
+      {
+        duration: 1,
+        opacity: 0,
+        y: -100,
+        stagger: 0.25,
+        scrollTrigger: {
+          trigger: ".details-box",
+          start: "10% 90%", // Adjust start based on when you want the animation to begin
+          end: "80% 5%",
+          scrub: true,
+        },
       },
-    },".details-section");
-
-    
-  })
+      ".details-section"
+    );
+  });
 
   return (
-    
-    <div className="details-section"
+    <div
+      className="details-section"
       style={{
         background: "linear-gradient(90deg, #000000, rgba(3, 47, 82, 0.758))",
       }}
@@ -78,10 +76,8 @@ const Details = () => {
             </p>
           </div>
         </div>
-      
       </Container>
     </div>
-    
   );
 };
 
