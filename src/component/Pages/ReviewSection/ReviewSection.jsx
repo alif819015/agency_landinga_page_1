@@ -144,7 +144,6 @@ const ReviewSection = () => {
     },
     ".review-section"
   );
-};
 
 return (
   <Container>
@@ -190,5 +189,5 @@ return (
     </div>
   </Container>
 );
-
+};
 export default ReviewSection;
