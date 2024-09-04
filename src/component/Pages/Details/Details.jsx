@@ -34,9 +34,9 @@ const Details = () => {
       }}
     >
       <Container>
-        <div className="py-16 md:py-20 lg:py-20 md:flex lg:flex justify-around">
+        <div className="py-16 md:py-20 lg:py-20 md:flex lg:flex justify-around ">
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
-            <img src={teamMembers} alt="" />
+            <img className="w-24 h-24" src={teamMembers} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">50+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -46,7 +46,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
-            <img src={project} alt="" />
+            <img className="w-24 h-24" src={project} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">200+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -56,7 +56,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center max-sm:pb-10">
-            <img src={review} alt="" />
+            <img className="w-24 h-24" src={review} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">500+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
@@ -66,7 +66,7 @@ const Details = () => {
             </p>
           </div>
           <div className="details-box flex flex-col items-center justify-center">
-            <img src={award} alt="" />
+            <img className="w-24 h-24" src={award} alt="" />
             <h1 className="text-white font-extrabold text-[64px]">75+</h1>
             <p
               style={{ color: "rgba(109, 149, 252, 1)" }}
