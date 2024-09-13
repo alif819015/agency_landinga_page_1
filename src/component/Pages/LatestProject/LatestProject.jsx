@@ -3,23 +3,21 @@ import Carousel from "./Carousel/Carousel";
 import gsap from "gsap";
 
 const LatestProject = () => {
+  // useGSAP(()=>{
 
-  useGSAP(()=>{
-    
-    gsap.from(".latest-project-text", {
-      duration: 2,
-      opacity: 0,
-      stagger: 0.2,
-      scrollTrigger: {
-        trigger: ".latest-project-text",
-        start: "10% 90%", // Adjust start based on when you want the animation to begin
-        end: "20% 5%",
-        scrub: true,
-      },
-    },".LatestProject-section");
+  //   gsap.from(".latest-project-text", {
+  //     duration: 2,
+  //     opacity: 0,
+  //     stagger: 0.2,
+  //     scrollTrigger: {
+  //       trigger: ".latest-project-text",
+  //       start: "10% 90%", // Adjust start based on when you want the animation to begin
+  //       end: "20% 5%",
+  //       scrub: true,
+  //     },
+  //   },".LatestProject-section");
 
-    
-  })
+  // })
 
   return (
     <div className="LatestProject-section bg-[#000000] pb-[50px]">

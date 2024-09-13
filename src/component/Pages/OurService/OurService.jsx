@@ -8,24 +8,24 @@ import "./OurService.css";
 import Container from "../../Ui/Container";
 
 const OurService = () => {
-  useGSAP(() => {
-    gsap.from(
-      ".service-text",
-      {
-        x: -360,
-        opacity: 0,
-        duration: 2,
-        stagger: 0.2,
-        scrollTrigger: {
-          trigger: ".service-text",
-          start: "10% 90%", // Adjust start based on when you want the animation to begin
-          end: "20% 5%",
-          scrub: true,
-        },
-      },
-      ".service-section"
-    );
-  });
+  // useGSAP(() => {
+  //   gsap.from(
+  //     ".service-text",
+  //     {
+  //       x: -360,
+  //       opacity: 0,
+  //       duration: 2,
+  //       stagger: 0.2,
+  //       scrollTrigger: {
+  //         trigger: ".service-text",
+  //         start: "10% 90%", // Adjust start based on when you want the animation to begin
+  //         end: "20% 5%",
+  //         scrub: true,
+  //       },
+  //     },
+  //     ".service-section"
+  //   );
+  // });
 
   return (
     <Container>

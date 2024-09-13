@@ -7,28 +7,28 @@ import Container from "../../Ui/Container";
 import gsap from "gsap";
 
 const Details = () => {
-  useGSAP(() => {
-    gsap.from(
-      ".details-box",
-      {
-        duration: 1,
-        opacity: 0,
-        y: -100,
-        stagger: 0.25,
-        scrollTrigger: {
-          trigger: ".details-box",
-          start: "10% 90%", // Adjust start based on when you want the animation to begin
-          end: "80% 5%",
-          scrub: true,
-        },
-      },
-      ".details-section"
-    );
-  });
+  // useGSAP(() => {
+  //   gsap.from(
+  //     ".details-box",
+  //     {
+  //       duration: 1,
+  //       opacity: 0,
+  //       y: -100,
+  //       stagger: 0.25,
+  //       scrollTrigger: {
+  //         trigger: ".details-box",
+  //         start: "10% 90%", // Adjust start based on when you want the animation to begin
+  //         end: "80% 5%",
+  //         scrub: true,
+  //       },
+  //     },
+  //     ".details-section"
+  //   );
+  // });
 
   return (
     <div
-      className="details-section"
+      className=""
       style={{
         background: "linear-gradient(90deg, #000000, rgba(3, 47, 82, 0.758))",
       }}

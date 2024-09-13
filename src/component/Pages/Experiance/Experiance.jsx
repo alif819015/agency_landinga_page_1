@@ -5,24 +5,24 @@ import gsap from "gsap";
 import Container from "../../Ui/Container";
 
 const Experiance = () => {
-  useGSAP(() => {
-    gsap.from(
-      ".experiance-text",
-      {
-        // left: "10%",
-        opacity: 0,
-        duration: 2,
-        stagger: 0.2,
-        scrollTrigger: {
-          trigger: ".experiance-text",
-          start: "10% 90%", // Adjust start based on when you want the animation to begin
-          end: "20% 5%",
-          scrub: true,
-        },
-      },
-      ".experiance-section"
-    );
-  });
+  // useGSAP(() => {
+  //   gsap.from(
+  //     ".experiance-text",
+  //     {
+  //       // left: "10%",
+  //       opacity: 0,
+  //       duration: 2,
+  //       stagger: 0.2,
+  //       scrollTrigger: {
+  //         trigger: ".experiance-text",
+  //         start: "10% 90%", // Adjust start based on when you want the animation to begin
+  //         end: "20% 5%",
+  //         scrub: true,
+  //       },
+  //     },
+  //     ".experiance-section"
+  //   );
+  // });
 
   return (
     <Container>

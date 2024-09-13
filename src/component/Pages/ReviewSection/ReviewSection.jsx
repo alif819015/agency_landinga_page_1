@@ -5,66 +5,66 @@ import gsap from "gsap";
 import Container from "../../Ui/Container";
 
 const ReviewSection = () => {
-  useGSAP(() => {
-    var tl2 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".review-section",
-        start: "0% 50%",
-        end: "90% 50%",
-        scrub: true,
-      },
-    });
-    tl2.from(
-      ".review-img1",
-      {
-        x: "-100%",
-        y: "100%",
-        //   rotate: 360,
-        duration: 2,
-      },
-      "same"
-    );
-    tl2.from(
-      ".review-img2",
-      {
-        x: "100%",
-        y: "100%",
-        //   rotate: 360,
-        duration: 2,
-      },
-      "same"
-    );
-    gsap.from(
-      ".review-text",
-      {
-        opacity: 0,
-        duration: 1.5,
-        stagger: 0.2,
-        scrollTrigger: {
-          trigger: ".review-text",
-          start: "10% 80%", // Adjust start based on when you want the animation to begin
-          end: "80% 00%",
-          scrub: true,
-        },
-      },
-      ".review-section"
-    );
-    gsap.from(
-      ".review-card",
-      {
-        opacity: 0,
-        duration: 1.5,
-        stagger: 0.2,
-        scrollTrigger: {
-          trigger: ".review-card",
-          start: "10% 80%", // Adjust start based on when you want the animation to begin
-          end: "80% 00%",
-          scrub: true,
-        },
-      },
-      ".review-section"
-    );
-  });
+  // useGSAP(() => {
+  //   var tl2 = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: ".review-section",
+  //       start: "0% 50%",
+  //       end: "90% 50%",
+  //       scrub: true,
+  //     },
+  //   });
+  //   tl2.from(
+  //     ".review-img1",
+  //     {
+  //       x: "-100%",
+  //       y: "100%",
+  //       //   rotate: 360,
+  //       duration: 2,
+  //     },
+  //     "same"
+  //   );
+  //   tl2.from(
+  //     ".review-img2",
+  //     {
+  //       x: "100%",
+  //       y: "100%",
+  //       //   rotate: 360,
+  //       duration: 2,
+  //     },
+  //     "same"
+  //   );
+  //   gsap.from(
+  //     ".review-text",
+  //     {
+  //       opacity: 0,
+  //       duration: 1.5,
+  //       stagger: 0.2,
+  //       scrollTrigger: {
+  //         trigger: ".review-text",
+  //         start: "10% 80%", // Adjust start based on when you want the animation to begin
+  //         end: "80% 00%",
+  //         scrub: true,
+  //       },
+  //     },
+  //     ".review-section"
+  //   );
+  //   gsap.from(
+  //     ".review-card",
+  //     {
+  //       opacity: 0,
+  //       duration: 1.5,
+  //       stagger: 0.2,
+  //       scrollTrigger: {
+  //         trigger: ".review-card",
+  //         start: "10% 80%", // Adjust start based on when you want the animation to begin
+  //         end: "80% 00%",
+  //         scrub: true,
+  //       },
+  //     },
+  //     ".review-section"
+  //   );
+  // });
 
   return (
     <div className="md:w-full w-[90%] review-section md:flex md:flex-row">
